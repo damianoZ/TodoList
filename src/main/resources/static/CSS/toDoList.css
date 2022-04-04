@@ -1,0 +1,133 @@
+body {
+    min-height: 100vh;
+    background-image: url(todo-c.jpeg);
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    color:black;
+    text-align:center;
+    margin-bottom: 6%;
+    font-family: 'Palette Mosaic', cursive;
+}
+.input-group-append{
+    margin-right: 10px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+#options {
+   text-align: center;
+   margin: 0 1% 2% 1%;
+}
+
+#container {
+    width: 800px;
+    margin:auto;
+    margin-top: 4%;
+    border-radius: 10px;
+    padding: 2% 4% 3% 4%;
+    background-color: rgba(62, 127, 146, 0.363)
+}
+
+.task-done {
+    opacity: 0.5;
+    transform: scale(0.96);
+}
+
+.task-text {
+    border: none;
+    background-color: whitesmoke;
+}
+
+.task {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: 1px solid lightsteelblue;
+    background-color: whitesmoke;
+    border-radius: 10PX;
+    padding: 1%;
+}
+
+.red {
+    border-left: 4px solid lightcoral;
+}
+.green {
+    border-left: 4px solid lightgreen;
+}
+.blue {
+    border-left: 4px solid lightskyblue;
+}
+
+#task-content{
+    color: black;
+    border-radius: 10PX;
+}
+
+.date{
+    float: right;
+}
+
+.checked {
+    color: green;
+    font-size: large;
+    border: none;
+    float: left;
+    background-color: whitesmoke;
+    opacity: 0.2;
+    margin-right: 2%;
+}
+
+.checked:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.bin {
+    font-size: large;
+    color: red;
+    border: none;
+    float: right;
+    background-color: whitesmoke;
+    margin: 0 2%;
+    opacity: 0.2;
+}
+
+.bin:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.pen {
+    color:cornflowerblue;
+    font-size: large;
+    border: none;
+    float: right;
+    background-color: whitesmoke;
+    margin-bottom:2%;
+    opacity: 0.3;
+}
+
+.pen:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#options {
+    float: left;
+}
+
+#delete-all{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*NODISPLAY*/
+.noDisplay {
+    display: none;
+}
+
+.newInput {
+    float: left;
+}
